@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>menu</title>
+<meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+body{}
+header ul{list-style-type: none;}
+header ul li{float: right; padding: 20px; font-size: 24px; font-family: 'Anybody', cursive;}
+ul li a{text-decoration:none; color: black;}
+ul li a:visited{text-decoration:none; color: black;}
+p a{text-decoration:none; color: white;}
+p a:visited{text-decoration:none; color: white;}
+#name{padding: 20px; font-size: 24px; font-family: 'Anybody', cursive;}
+#coffeevideo{position: relative;}
+#cakevideo{position: absolute; top:113px; left:622px;}
+video{padding:20px;}
+#coffeetext{position:absolute; color: white; font-size: 24px; top: 130px; left: 45px; font-family: 'Anybody', cursive;}
+#caketext{position:absolute; color: white; font-size: 24px; top: 130px; left: 660px; font-family: 'Anybody', cursive;}
+</style>
+</head>
+<body>
+<header>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+<p id="name">THE ALL-NIGHTER'S CAFE</p>
+</header>
+<section id="coffee">
+<div id="coffeevideo">
+<video height="320" autoplay loop muted>
+<source src="coffeevideo.mp4" type="video/mp4">
+</video>
+</div>
+<div id="coffeetext">
+<p><a href="coffeemenu.html">Coffee and Tea</a></p>
+</div>
+</section>
+<section id="cake">
+<div id="cakevideo">
+<video height="320" autoplay loop muted>
+<source src="pastryvideo.mp4" type="video/mp4">
+</video>
+</div>
+<div id="caketext">
+<p><a href="cakemenu.html">Cakes and Pastries</a></p>
+</div>
+</section>
+</body>
+</html>
